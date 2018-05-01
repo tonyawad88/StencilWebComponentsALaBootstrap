@@ -27,6 +27,185 @@ declare global {
 declare global {
 
   namespace StencilComponents {
+    interface BtspAlert {
+      'color': string;
+      'text': string;
+    }
+  }
+
+  interface HTMLBtspAlertElement extends StencilComponents.BtspAlert, HTMLStencilElement {}
+
+  var HTMLBtspAlertElement: {
+    prototype: HTMLBtspAlertElement;
+    new (): HTMLBtspAlertElement;
+  };
+  interface HTMLElementTagNameMap {
+    'btsp-alert': HTMLBtspAlertElement;
+  }
+  interface ElementTagNameMap {
+    'btsp-alert': HTMLBtspAlertElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'btsp-alert': JSXElements.BtspAlertAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface BtspAlertAttributes extends HTMLAttributes {
+      'color'?: string;
+      'text'?: string;
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
+    interface BtspBadge {
+      'badgeType': string;
+      'color': string;
+      'linkReference': string;
+      'text': string;
+    }
+  }
+
+  interface HTMLBtspBadgeElement extends StencilComponents.BtspBadge, HTMLStencilElement {}
+
+  var HTMLBtspBadgeElement: {
+    prototype: HTMLBtspBadgeElement;
+    new (): HTMLBtspBadgeElement;
+  };
+  interface HTMLElementTagNameMap {
+    'btsp-badge': HTMLBtspBadgeElement;
+  }
+  interface ElementTagNameMap {
+    'btsp-badge': HTMLBtspBadgeElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'btsp-badge': JSXElements.BtspBadgeAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface BtspBadgeAttributes extends HTMLAttributes {
+      'badgeType'?: string;
+      'color'?: string;
+      'linkReference'?: string;
+      'text'?: string;
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
+    interface BtspBreadcrumbContainer {
+
+    }
+  }
+
+  interface HTMLBtspBreadcrumbContainerElement extends StencilComponents.BtspBreadcrumbContainer, HTMLStencilElement {}
+
+  var HTMLBtspBreadcrumbContainerElement: {
+    prototype: HTMLBtspBreadcrumbContainerElement;
+    new (): HTMLBtspBreadcrumbContainerElement;
+  };
+  interface HTMLElementTagNameMap {
+    'btsp-breadcrumb-container': HTMLBtspBreadcrumbContainerElement;
+  }
+  interface ElementTagNameMap {
+    'btsp-breadcrumb-container': HTMLBtspBreadcrumbContainerElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'btsp-breadcrumb-container': JSXElements.BtspBreadcrumbContainerAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface BtspBreadcrumbContainerAttributes extends HTMLAttributes {
+
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
+    interface BtspBreadcrumbItem {
+      'active': boolean;
+      'linkReference': string;
+      'text': string;
+    }
+  }
+
+  interface HTMLBtspBreadcrumbItemElement extends StencilComponents.BtspBreadcrumbItem, HTMLStencilElement {}
+
+  var HTMLBtspBreadcrumbItemElement: {
+    prototype: HTMLBtspBreadcrumbItemElement;
+    new (): HTMLBtspBreadcrumbItemElement;
+  };
+  interface HTMLElementTagNameMap {
+    'btsp-breadcrumb-item': HTMLBtspBreadcrumbItemElement;
+  }
+  interface ElementTagNameMap {
+    'btsp-breadcrumb-item': HTMLBtspBreadcrumbItemElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'btsp-breadcrumb-item': JSXElements.BtspBreadcrumbItemAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface BtspBreadcrumbItemAttributes extends HTMLAttributes {
+      'active'?: boolean;
+      'linkReference'?: string;
+      'text'?: string;
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
+    interface BtspButton {
+      'first': string;
+      'last': string;
+    }
+  }
+
+  interface HTMLBtspButtonElement extends StencilComponents.BtspButton, HTMLStencilElement {}
+
+  var HTMLBtspButtonElement: {
+    prototype: HTMLBtspButtonElement;
+    new (): HTMLBtspButtonElement;
+  };
+  interface HTMLElementTagNameMap {
+    'btsp-button': HTMLBtspButtonElement;
+  }
+  interface ElementTagNameMap {
+    'btsp-button': HTMLBtspButtonElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'btsp-button': JSXElements.BtspButtonAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface BtspButtonAttributes extends HTMLAttributes {
+      'first'?: string;
+      'last'?: string;
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
     interface MyComponent {
       'first': string;
       'last': string;

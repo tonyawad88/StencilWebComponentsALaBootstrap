@@ -9,7 +9,31 @@
 </head>
 <body>
 
-  <my-component first="Stencil" last="'Don't call me a framework' JS"></my-component>
+  <!-- <my-component first="Stencil" last="'Don't call me a framework' JS"></my-component> -->
+  <h4>Alerts</h4>
+  <hr />
+  <btsp-alert text="This is my alert text passed in as a property" color="primary">
+    <h4>Well Done !</h4>
+    <hr /> 
+    <p>You have successfully used the bootstrap alert component</p>
+  </btsp-alert>
+  <btsp-alert color="danger">This is my danger text</btsp-alert>
+  <btsp-alert color="info">This is my info text</btsp-alert>
 
+  <h4>Badges</h4>
+  <hr />
+  <btsp-badge badge-type="link" color="primary" text="This is the text" link-reference="https://google.ca" ></btsp-badge>
+  <btsp-badge badge-type="pill" color="danger" text="This is a pill"></btsp-badge>
+  <btsp-badge badge-type="badge" color="info" text="6"></btsp-badge>
+
+  <h4>Breadcrumbs</h4>
+  <hr />
+  <btsp-breadcrumb-container>
+    <btsp-breadcrumb-item text="Item 1" link-reference="https://google.ca"></btsp-breadcrumb-item>
+    <btsp-breadcrumb-item text="Item 2" link-reference="https://google.ca" ></btsp-breadcrumb-item>
+    <btsp-breadcrumb-item text="Item 3" link-reference="https://google.ca" ></btsp-breadcrumb-item>
+    <btsp-breadcrumb-item text="Item 4" link-reference="https://google.ca" active="true" ></btsp-breadcrumb-item>
+  </btsp-breadcrumb>
+  
 </body>
 </html>
